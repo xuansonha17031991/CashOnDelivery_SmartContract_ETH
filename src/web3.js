@@ -1,0 +1,13 @@
+import Web3 from 'web3'; 
+//const web3 = new Web3(new Web3.providers.HttpProvider('HTTP://127.0.0.1:7545'));
+//const web3 = new Web3(Web3.givenProvider || "HTTP://127.0.0.1:7545",null,{});
+const web3 = new Web3(new Web3.providers.HttpProvider('HTTP://127.0.0.1:7545'));
+//const web3 = new Web3(Web3.givenProvider || 'HTTP://127.0.0.1:7545');
+// let web3;
+//const web3 = new Web3(Web3.givenProvider || 'HTTP://127.0.0.1:7545');
+//const web3 = new Web3(Web3.givenProvider || new Web3.providers.WebsocketProvider('HTTP://127.0.0.1:7545'), null, {});
+//const web3 = new Web3(window.web3.currentProvider);
+//const web3 = new Web3(Web3.givenProvider || "HTTP://127.0.0.1:7545");
+//const network =  web3.eth.net.getNetworkType();
+//console.log("adadaw",network);
+export default web3;

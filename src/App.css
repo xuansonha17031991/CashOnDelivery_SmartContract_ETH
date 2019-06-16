@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+.ui.header:last-child{
+  background: #edfcfb;
+  height: 100px;
+  padding: 2%;
+  border-bottom: solid 1px black;
+}
+.ui.menu{
+  margin:  unset;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* //min-height: 10px; */
+  border-bottom: solid 1px #f5dfdf; 
+  height: auto;
+  /* background: #a5e2f1; */
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 3px;
+  color: azure;
+  font-family: 'Roboto', sans-serif;
+}
+li{
+  padding: 10px;
+}
+li:hover{
+  background: #f39f9f;
+}
+li:active{
+  background: #f39f9f;
+}
+a{
+  font-size: 18px;
+  
+}
+.nav-links{
+  width: 100%;
+  margin: 0px auto;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  list-style:  none;
+  background: #edfcfb;
+}
+.main{
+  width: 70%;
+  margin: 0px auto;
+  border-radius:5px;
+  background-color:  #edfcfb;
+  height:auto;
+}
+.from-creat{
+  width: 50%;
+  margin: 0px auto;
+  padding-top: 5%;
+}
+.ui.card:last-child{
+  margin: 0px auto;
+}
+.status{
+  color:blue;
+  width: 10%;
+  margin: 0px auto;
+}
+.status-input{
+  color:red;
+  width: 60%;
+  margin: 0px auto;
+}
+.input{
+  margin-top: 10px;
+  padding: 5px;
+}
+.input-transport{
+  margin-top: 20px;
+}
+.front-deposit{
+  background-color: #faf0f0;
+}
+i{
+  color: blue;
+}
+.ui.action.input:not([class*="left action"])>input{
+  width: 65%;
+}
+
+.footer{
+  height: 125px;
+  bottom: 0;
+  display: flex;
+  border-top: solid 1px black;
+  background-color: #edfcfb;
+  margin-top: 50px;
+}
+
+
+span{
+  color: #000;
+  line-height: 125px;
+
+}
+.images{
+  width: 30%;
+  margin-top: 8%;
+  /* line-height: 80px; */
+
+}
+.img{
+  display: flex;
+  margin: 0px auto;
+  width: 20%;
+}
+.images img{
+  width: 100%;
+  border-radius: 37px;
+}
+.btn-btn-button{
+  width: 20%;
+  margin: 0px auto;
+}
